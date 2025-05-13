@@ -172,3 +172,10 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+/.project
+/.pydevproject
+/.python-version
+/pyproject.toml
+/uv.lock
+/.directory
+/test.html
