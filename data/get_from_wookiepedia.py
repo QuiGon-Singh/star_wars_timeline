@@ -147,6 +147,7 @@ class TimelineCannonMedia:
             episode_title = re.sub(r'\s{2,}', ' ', episode_title)
 
             if self.matches_childrens_media(show) is True:
+                watch_order_id -= 1
                 continue
 
             release_date = row_tds[3].text.strip()
